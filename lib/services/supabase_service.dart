@@ -25,7 +25,7 @@ class SupabaseService {
           
           songs.add(
             Song(
-              id: file.id,
+              id: file.name,
               name: file.name,
               fileUrl: fileUrl,
               title: file.name.replaceAll('.mp3', ''),
